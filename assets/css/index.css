@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .input-container button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .tarea .descripcion {
+    flex-grow: 1;
+    color: #333;
+  }
+  
+  .tarea .accion {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tarea .accion:hover {
+    background-color: #ccc;
+  }
+  
+  .tarea .accion.eliminar {
+    background-color: #ff4136;
+    color: #fff;
+  }
+  
+  .total {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .total span {
+    font-weight: bold;
+  }
+  
+  .total .realizadas {
+    color: #4caf50;
+  }
